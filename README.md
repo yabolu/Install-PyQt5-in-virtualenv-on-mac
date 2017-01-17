@@ -1,6 +1,7 @@
 # Install-PyQt5-in-virtualenv-on-mac
 step1: install Xcode
 step2: 安装Qt5
+      add export PATH=$PATH:/Users/kirin/Qt5.5.0/5.5/clang_64/bin to .bash_profile
 step3: 获得你想要安装PyQt的python virtualenv, 我的是/Users/用户名/.virtualenvs/mytest/lib/python2.7/site-packages
 step4: 安装sip
   tar zxvf sip包
