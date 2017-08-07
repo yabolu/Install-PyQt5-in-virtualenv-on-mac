@@ -10,13 +10,13 @@
   3. `python configure.py -d /Users/用户名/.virtualenvs/mytest/lib/python2.7/site-packages --arch x86_64`
   4. `make`
   5. `sudo make install`  
-  我在这一步出现了错误: **cp corporation denied** 的错误  
-  *解决方法:* 
-           - 重启电脑
-           - command + R 
-           - 实用工具--> 终端: csrutil disable
-           - 重启电脑 
-  `sudo make clean`
+  我在这一步出现了错误: *cp corporation denied* 的错误  
+  **解决方法:**
+    - 重启电脑
+    - command + R 
+    - 实用工具--> 终端: csrutil disable
+    - 重启电脑 
+  6. `sudo make clean`
  
 ## step5: 安装PyQt5
     `tar 解包`
