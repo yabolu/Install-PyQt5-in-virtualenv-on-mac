@@ -5,11 +5,11 @@
 ## step3: 获得你想要安装PyQt的python virtualenv
   我的是`/Users/用户名/.virtualenvs/mytest/lib/python2.7/site-packages`
 ## step4: 安装sip
-  `tar zxvf sip包`
-  `cd sip解压后的项目包`
-  `python configure.py -d /Users/用户名/.virtualenvs/mytest/lib/python2.7/site-packages --arch x86_64`
-  `make`
-  `sudo make install`
+  1. `tar zxvf sip包`
+  2. `cd sip解压后的项目包`
+  3. `python configure.py -d /Users/用户名/.virtualenvs/mytest/lib/python2.7/site-packages --arch x86_64`
+  4. `make`
+  5. `sudo make install`
   我在这一步出现了错误: **cp corporation denied** 的错误
   *解决方法:* 
            - 重启电脑
