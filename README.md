@@ -12,10 +12,10 @@
   5. `sudo make install`  
   我在这一步出现了错误: *cp corporation denied* 的错误  
   **解决方法:**  
-    1. 重启电脑
-    2. command + R 
-    3. 实用工具--> 终端: csrutil disable
-    4. 重启电脑 
+  重启电脑  
+  command + R  
+  实用工具--> 终端: csrutil disable  
+  重启电脑 
   6. `sudo make clean`
  
 ## step5: 安装PyQt5
