@@ -15,8 +15,8 @@
   重启电脑  
   command + R  
   实用工具--> 终端: csrutil disable  
-  重启电脑 
-  6. `sudo make clean`
+  重启电脑  
+  6. `sudo make clean`
  
 ## step5: 安装PyQt5
     `tar 解包`
